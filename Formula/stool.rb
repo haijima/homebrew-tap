@@ -1,8 +1,8 @@
 class Stool < Formula
   desc "stool is access log profiler"
   homepage "https://github.com/haijima/stool"
-  url "https://github.com/haijima/stool/releases/download/v1.15.0/stool_Darwin_x86_64.tar.gz"
-  sha256 "803f48f4fee24aa7c060600e9e9c3d05973e268bfaa59781269447a1b6e7b574"
+  url "https://github.com/haijima/stool/releases/download/v1.16.0/stool_Darwin_x86_64.tar.gz"
+  sha256 "06ec8e156f6b961e50def8c09cc19be8eb5c01b2213bfedf40ebb14fc08b3f7e"
   license "MIT"
 
   def install
