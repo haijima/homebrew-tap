@@ -5,21 +5,21 @@
 class Dstr < Formula
   desc "Examines data distribution"
   homepage "https://github.com/haijima/dstr"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/haijima/dstr/releases/download/v1.0.0/dstr-darwin-amd64.tar.gz"
-      sha256 "04f8d8e060865363d661277c5334905a06cb63e95cd1af10317eab5d4f3b5885"
+      url "https://github.com/haijima/dstr/releases/download/v1.0.1/dstr-darwin-amd64.tar.gz"
+      sha256 "dfb032cc6908ec6bc7dd16ee9687cdc86d612ac5ab5eb41835e534549ac02e80"
 
       def install
         bin.install "dstr"
       end
     end
     on_arm do
-      url "https://github.com/haijima/dstr/releases/download/v1.0.0/dstr-darwin-arm64.tar.gz"
-      sha256 "6c64aa9a2cbf0eb37e02313a5542f1e8e46ad1c8d9c958b856af8859c445f544"
+      url "https://github.com/haijima/dstr/releases/download/v1.0.1/dstr-darwin-arm64.tar.gz"
+      sha256 "6560155eac8a293080a9646ab55de896f5e89960aa7a2166d39d1c1d8e7e3319"
 
       def install
         bin.install "dstr"
@@ -30,8 +30,8 @@ class Dstr < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/haijima/dstr/releases/download/v1.0.0/dstr-linux-amd64.tar.gz"
-        sha256 "67169eb8f339b679d3d0f5ba3b3d4effae54e7a8c6f3f0cd9e63e500636ab99a"
+        url "https://github.com/haijima/dstr/releases/download/v1.0.1/dstr-linux-amd64.tar.gz"
+        sha256 "2d32bb89de84a8827f73981fe54e92c33f53482def032094f77779283fc05c99"
 
         def install
           bin.install "dstr"
@@ -40,8 +40,8 @@ class Dstr < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/haijima/dstr/releases/download/v1.0.0/dstr-linux-arm64.tar.gz"
-        sha256 "2c775bf4b4e03a060d1ec187adfaeacdb469dca8a8ac359a07006052f27b5307"
+        url "https://github.com/haijima/dstr/releases/download/v1.0.1/dstr-linux-arm64.tar.gz"
+        sha256 "c7bb61c0c1c7ce91aa47a399fe76d791965954682db4c803cf274c389077f4b0"
 
         def install
           bin.install "dstr"
