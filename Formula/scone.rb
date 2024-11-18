@@ -5,21 +5,21 @@
 class Scone < Formula
   desc "Analyzes SQL queries"
   homepage "https://github.com/haijima/scone"
-  version "1.2.0"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/haijima/scone/releases/download/v1.2.0/scone-darwin-amd64.tar.gz"
-      sha256 "6b7867eee8a29d971812f0a0f2def386b635cf78f867cf581435e9c67051254d"
+      url "https://github.com/haijima/scone/releases/download/v1.2.1/scone-darwin-amd64.tar.gz"
+      sha256 "dfe15808cefa5a04feabcacf873f329bea41bff62f0c30fadae3f499fe238abf"
 
       def install
         bin.install "scone"
       end
     end
     on_arm do
-      url "https://github.com/haijima/scone/releases/download/v1.2.0/scone-darwin-arm64.tar.gz"
-      sha256 "0cd2bd76a301194c89f9ed304342eea5c0e67e5f942e8e6fb9f3bd52aebed117"
+      url "https://github.com/haijima/scone/releases/download/v1.2.1/scone-darwin-arm64.tar.gz"
+      sha256 "76f7a3cc383eeaf043e8fc00271982ef3201fda345a77cfc6a9e6ec6ec812232"
 
       def install
         bin.install "scone"
@@ -30,8 +30,8 @@ class Scone < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/haijima/scone/releases/download/v1.2.0/scone-linux-amd64.tar.gz"
-        sha256 "ebee81948e1c3c975c833a3a838b9e137a2fd721f793ff018ecc9d653aedec47"
+        url "https://github.com/haijima/scone/releases/download/v1.2.1/scone-linux-amd64.tar.gz"
+        sha256 "422a9e7536ef17690531cc336b88115e232bbc9e028362b4a67512a6c6817b70"
 
         def install
           bin.install "scone"
@@ -40,8 +40,8 @@ class Scone < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/haijima/scone/releases/download/v1.2.0/scone-linux-arm64.tar.gz"
-        sha256 "bddaae029665c57ee74c94a5065c94bf0f14966b56bef20ccb074cb8ba2495b2"
+        url "https://github.com/haijima/scone/releases/download/v1.2.1/scone-linux-arm64.tar.gz"
+        sha256 "4a310cbf4dc1f914f8269bc3db364b5fc5b08a84b37fe870b7877a191e9274b0"
 
         def install
           bin.install "scone"
